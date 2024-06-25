@@ -82,7 +82,8 @@ body {
 .formArea {
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: center;
+    gap: 15px;
     align-items: center;
     height: 40%;
     width: 100%;
@@ -101,6 +102,12 @@ body {
 
 .formArea input:focus {
     outline: none;
+}
+
+.formArea b {
+    align-self: flex-start;
+    margin-left: 20%;
+    margin-bottom: 5px;
 }
 
 .buttons {
