@@ -145,9 +145,12 @@ body {
 }
 
 .buttons {
+    transition: 0.4s ease;
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
+    gap: 15px;
 }
 
 .loginBtn {
@@ -163,4 +166,29 @@ body {
     font-weight: bold;
     color: rgb(255, 255, 255);
     background-color: rgb(0, 255, 179);
+}
+
+.loginBtn:hover {
+    scale: 101%;
+    box-shadow: 10px 20px 50px rgba(0, 0, 0, 0.103);
+}
+
+.signupBtns {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+#github {
+    transition: 0.2s ease;
+    height: 50px;
+}
+
+#facebook {
+    height: 60px;
+}
+
+.signupBtns img:hover {
+    scale: 105%;
 }
