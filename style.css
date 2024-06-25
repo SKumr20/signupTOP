@@ -56,13 +56,14 @@ body {
 }
 
 .google {
+    transition: 0.2s ease;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 20%;
     width: 60%;
     gap: 5px;
-    border: 2px solid rgba(0, 0, 0, 0.192);
+    border: 1.5px solid rgba(0, 0, 0, 0.192);
     border-radius: 10px;
     font-weight: bold;
     color: rgba(0, 0, 0, 0.205);
@@ -71,6 +72,10 @@ body {
 .google img {
     height: 80%;
     width: auto;
+}
+
+.google:hover {
+    scale: 105%;
 }
 
 .formArea {
