@@ -6,10 +6,14 @@
 :root {
     --bgcolor: #F2F2F2;
     --bgcolordark: #121212;
-
     --bgcolorcontainer: white;
     --bgcolorcontainerdark: #3f3f3f;
-    --fontdark: white;
+    --fontdark: #f8f8f8;
+
+    --googleloginfont: rgba(0, 0, 0, 0.205);
+    --googleloginfontdark: #f2f2f2;
+    --googleloginborder: rgba(0, 0, 0, 0.192);
+    --googleloginborderdark: #f8f8f8;
 
 
 }
@@ -52,6 +56,7 @@ body {
 
 .forms {
     display: flex;
+    color: var(--font);
     flex-direction: column;
     height: 750px;
     width: 700px;
@@ -75,10 +80,9 @@ body {
     height: 50px;
     width: 60%;
     gap: 5px;
-    border: 1.5px solid rgba(0, 0, 0, 0.192);
+    border: 1.5px solid var(--googleloginborder);
     border-radius: 10px;
     font-weight: bold;
-    color: rgba(0, 0, 0, 0.205);
 }
 
 .google img {
@@ -92,7 +96,7 @@ body {
 
 .google a {
     text-decoration: none;
-    color: rgba(0, 0, 0, 0.205);
+    color: var(--googleloginfont);
 }
 
 .formArea {
