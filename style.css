@@ -5,17 +5,17 @@
 
 :root {
     --bgcolor: #F2F2F2;
-    --bgcolordark: #121212;
     --bgcolorcontainer: white;
+    --googleloginfont: rgba(0, 0, 0, 0.205);
+    --googleloginborder: rgba(0, 0, 0, 0.192);
+}
+
+.dark-mode {
+    --bgcolordark: #121212;
     --bgcolorcontainerdark: #3f3f3f;
     --fontdark: #f8f8f8;
-
-    --googleloginfont: rgba(0, 0, 0, 0.205);
-    --googleloginfontdark: #f2f2f2;
-    --googleloginborder: rgba(0, 0, 0, 0.192);
+    --googleloginfontdark: #f2f2f2;   
     --googleloginborderdark: #f8f8f8;
-
-
 }
 
 html, body {
