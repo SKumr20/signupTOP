@@ -79,6 +79,11 @@ body {
     scale: 101%;
 }
 
+.google a {
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.205);;
+}
+
 .formArea {
     display: flex;
     flex-direction: column;
@@ -161,7 +166,7 @@ body {
     height: 50px;
     width: 60%;
     gap: 5px;
-    border: 1.5px solid rgba(0, 0, 0, 0.192);
+    border: none;
     border-radius: 10px;
     font-weight: bold;
     color: rgb(255, 255, 255);
